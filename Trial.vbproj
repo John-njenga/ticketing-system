@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CCC7649-D04B-4285-BBD4-74792A988540}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Trial.My.MyApplication</StartupObject>
+    <RootNamespace>Trial</RootNamespace>
+    <AssemblyName>Trial</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Trial.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Trial.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <HintPath>..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddJourney.Designer.vb">
+      <DependentUpon>AddJourney.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddJourney.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTickets.Designer.vb">
+      <DependentUpon>AddTickets.vb</DependentUpon>
+    </Compile>
+    <Compile Include="AddTickets.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ApplicationEvents.vb" />
+    <Compile Include="BusReports.Designer.vb">
+      <DependentUpon>BusReports.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BusReports.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bus_ticketing_systemDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bus_ticketing_systemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bus_ticketing_systemDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bus_ticketing_systemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="bus_ticketing_systemDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>bus_ticketing_systemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.Designer.vb">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Journeys.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Journeys.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagePassengers.Designer.vb">
+      <DependentUpon>ManagePassengers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ManagePassengers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="RegisterBus.Designer.vb">
+      <DependentUpon>RegisterBus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterBus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RegisterPassenger.Designer.vb">
+      <DependentUpon>RegisterPassenger.vb</DependentUpon>
+    </Compile>
+    <Compile Include="RegisterPassenger.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="tickets_dataset.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tickets_dataset.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="View Tickets.Designer.vb">
+      <DependentUpon>View Tickets.vb</DependentUpon>
+    </Compile>
+    <Compile Include="View Tickets.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewJourneys.Designer.vb">
+      <DependentUpon>ViewJourneys.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ViewJourneys.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddJourney.resx">
+      <DependentUpon>AddJourney.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTickets.resx">
+      <DependentUpon>AddTickets.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BusReports.resx">
+      <DependentUpon>BusReports.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagePassengers.resx">
+      <DependentUpon>ManagePassengers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterBus.resx">
+      <DependentUpon>RegisterBus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegisterPassenger.resx">
+      <DependentUpon>RegisterPassenger.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View Tickets.resx">
+      <DependentUpon>View Tickets.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewJourneys.resx">
+      <DependentUpon>ViewJourneys.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bus_ticketing_systemDataSet.xsc">
+      <DependentUpon>bus_ticketing_systemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bus_ticketing_systemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bus_ticketing_systemDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bus_ticketing_systemDataSet.xss">
+      <DependentUpon>bus_ticketing_systemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="bus_ticketing_systemDataSet1.xsc">
+      <DependentUpon>bus_ticketing_systemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="bus_ticketing_systemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bus_ticketing_systemDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bus_ticketing_systemDataSet1.xss">
+      <DependentUpon>bus_ticketing_systemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="bus_ticketing_systemDataSet2.xsc">
+      <DependentUpon>bus_ticketing_systemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="bus_ticketing_systemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>bus_ticketing_systemDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="bus_ticketing_systemDataSet2.xss">
+      <DependentUpon>bus_ticketing_systemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Journeys.xsc">
+      <DependentUpon>Journeys.xsd</DependentUpon>
+    </None>
+    <None Include="Journeys.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Journeys.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Journeys.xss">
+      <DependentUpon>Journeys.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="tickets_dataset.xsc">
+      <DependentUpon>tickets_dataset.xsd</DependentUpon>
+    </None>
+    <None Include="tickets_dataset.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tickets_dataset.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tickets_dataset.xss">
+      <DependentUpon>tickets_dataset.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

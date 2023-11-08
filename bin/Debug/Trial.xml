@@ -1,0 +1,351 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Trial
+</name>
+</assembly>
+<members>
+<member name="T:Trial.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Trial.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Trial.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet.busesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet.busesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet.busesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSetTableAdapters.busesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Trial.bus_ticketing_systemDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(Trial.bus_ticketing_systemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(Trial.bus_ticketing_systemDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.UpdateAll(Trial.bus_ticketing_systemDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1.PassengersDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1.PassengersRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1.PassengersRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1TableAdapters.PassengersTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.UpdateUpdatedRows(Trial.bus_ticketing_systemDataSet1,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.UpdateInsertedRows(Trial.bus_ticketing_systemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.UpdateDeletedRows(Trial.bus_ticketing_systemDataSet1,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.UpdateAll(Trial.bus_ticketing_systemDataSet1)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet1TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2.TicketsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2.TicketsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2.TicketsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2TableAdapters.TicketsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.UpdateUpdatedRows(Trial.bus_ticketing_systemDataSet2,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.UpdateInsertedRows(Trial.bus_ticketing_systemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.UpdateDeletedRows(Trial.bus_ticketing_systemDataSet2,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.UpdateAll(Trial.bus_ticketing_systemDataSet2)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Trial.bus_ticketing_systemDataSet2TableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Trial.Journeys">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Trial.Journeys.journeysDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Trial.Journeys.journeysRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Trial.Journeys.journeysRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Trial.JourneysTableAdapters.journeysTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Trial.JourneysTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Trial.JourneysTableAdapters.TableAdapterManager.UpdateUpdatedRows(Trial.Journeys,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.JourneysTableAdapters.TableAdapterManager.UpdateInsertedRows(Trial.Journeys,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.JourneysTableAdapters.TableAdapterManager.UpdateDeletedRows(Trial.Journeys,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Trial.JourneysTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Trial.JourneysTableAdapters.TableAdapterManager.UpdateAll(Trial.Journeys)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Trial.JourneysTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Trial.JourneysTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:Trial.tickets_dataset">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:Trial.tickets_dataset.query_ticketsDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:Trial.tickets_dataset.query_ticketsRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:Trial.tickets_dataset.query_ticketsRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:Trial.tickets_datasetTableAdapters.query_ticketsTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:Trial.tickets_datasetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:Trial.tickets_datasetTableAdapters.TableAdapterManager.UpdateUpdatedRows(Trial.tickets_dataset,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.tickets_datasetTableAdapters.TableAdapterManager.UpdateInsertedRows(Trial.tickets_dataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:Trial.tickets_datasetTableAdapters.TableAdapterManager.UpdateDeletedRows(Trial.tickets_dataset,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:Trial.tickets_datasetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:Trial.tickets_datasetTableAdapters.TableAdapterManager.UpdateAll(Trial.tickets_dataset)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:Trial.tickets_datasetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:Trial.tickets_datasetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
